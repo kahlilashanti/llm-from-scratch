@@ -1,0 +1,61 @@
+Apple, 95 calories
+Banana, 105 calories
+Orange, 62 calories
+Strawberry (1 cup), 49 calories
+Blueberries (1 cup), 85 calories
+Watermelon (1 cup), 46 calories
+Pineapple (1 cup), 82 calories
+Grapes (1 cup), 104 calories
+Avocado (whole), 240 calories
+Tomato (1 medium), 22 calories
+Cucumber (1 cup), 16 calories
+Carrot (1 medium), 25 calories
+Broccoli (1 cup), 55 calories
+Spinach (1 cup raw), 7 calories
+Kale (1 cup raw), 33 calories
+Sweet potato (1 medium), 103 calories
+Russet potato (1 medium), 168 calories
+Brown rice (1 cup cooked), 216 calories
+White rice (1 cup cooked), 204 calories
+Oatmeal (1 cup cooked), 154 calories
+Quinoa (1 cup cooked), 222 calories
+Whole wheat bread (1 slice), 100 calories
+White bread (1 slice), 80 calories
+Bagel (plain, 1 medium), 245 calories
+Pasta (1 cup cooked), 200 calories
+Egg (large), 78 calories
+Egg whites (3), 51 calories
+Chicken breast (100g), 165 calories
+Chicken thigh (100g), 209 calories
+Turkey breast (100g), 135 calories
+Ground beef (85% lean, 100g), 250 calories
+Steak (sirloin, 100g), 242 calories
+Pork chop (100g), 231 calories
+Salmon (100g), 208 calories
+Tuna (canned in water, 100g), 132 calories
+Shrimp (100g), 99 calories
+Tilapia (100g), 129 calories
+Almonds (28g), 164 calories
+Peanut butter (2 tbsp), 190 calories
+Cashews (28g), 157 calories
+Walnuts (28g), 185 calories
+Greek yogurt (plain, 1 cup), 100 calories
+Regular yogurt (plain, 1 cup), 150 calories
+Milk (whole, 1 cup), 150 calories
+Milk (skim, 1 cup), 90 calories
+Cheddar cheese (28g), 113 calories
+Mozzarella cheese (28g), 85 calories
+Butter (1 tbsp), 102 calories
+Olive oil (1 tbsp), 119 calories
+Coca-Cola (12 oz), 140 calories
+Pepsi (12 oz), 150 calories
+Orange juice (1 cup), 112 calories
+Apple juice (1 cup), 114 calories
+Black coffee (8 oz), 2 calories
+Latte (medium, 16 oz), 190 calories
+Green tea (8 oz), 2 calories
+Beer (regular, 12 oz), 153 calories
+Wine (red, 5 oz), 125 calories
+Protein shake (1 serving), 120 calories
+Energy drink (8 oz), 110 calories
+

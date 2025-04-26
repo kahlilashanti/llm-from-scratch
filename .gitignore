@@ -1,0 +1,6 @@
+node_modules/
+*.json
+token_to_id.json
+id_to_token.json
+embeddings.json
+node_modules/
