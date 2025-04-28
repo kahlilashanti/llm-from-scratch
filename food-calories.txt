@@ -1,61 +1,322 @@
-Apple, 95 calories
-Banana, 105 calories
-Orange, 62 calories
-Strawberry (1 cup), 49 calories
-Blueberries (1 cup), 85 calories
-Watermelon (1 cup), 46 calories
-Pineapple (1 cup), 82 calories
-Grapes (1 cup), 104 calories
-Avocado (whole), 240 calories
-Tomato (1 medium), 22 calories
-Cucumber (1 cup), 16 calories
-Carrot (1 medium), 25 calories
-Broccoli (1 cup), 55 calories
-Spinach (1 cup raw), 7 calories
-Kale (1 cup raw), 33 calories
-Sweet potato (1 medium), 103 calories
-Russet potato (1 medium), 168 calories
-Brown rice (1 cup cooked), 216 calories
-White rice (1 cup cooked), 204 calories
-Oatmeal (1 cup cooked), 154 calories
-Quinoa (1 cup cooked), 222 calories
-Whole wheat bread (1 slice), 100 calories
-White bread (1 slice), 80 calories
-Bagel (plain, 1 medium), 245 calories
-Pasta (1 cup cooked), 200 calories
-Egg (large), 78 calories
-Egg whites (3), 51 calories
-Chicken breast (100g), 165 calories
-Chicken thigh (100g), 209 calories
-Turkey breast (100g), 135 calories
-Ground beef (85% lean, 100g), 250 calories
-Steak (sirloin, 100g), 242 calories
-Pork chop (100g), 231 calories
-Salmon (100g), 208 calories
-Tuna (canned in water, 100g), 132 calories
-Shrimp (100g), 99 calories
-Tilapia (100g), 129 calories
-Almonds (28g), 164 calories
-Peanut butter (2 tbsp), 190 calories
-Cashews (28g), 157 calories
-Walnuts (28g), 185 calories
-Greek yogurt (plain, 1 cup), 100 calories
-Regular yogurt (plain, 1 cup), 150 calories
-Milk (whole, 1 cup), 150 calories
-Milk (skim, 1 cup), 90 calories
-Cheddar cheese (28g), 113 calories
-Mozzarella cheese (28g), 85 calories
-Butter (1 tbsp), 102 calories
-Olive oil (1 tbsp), 119 calories
-Coca-Cola (12 oz), 140 calories
-Pepsi (12 oz), 150 calories
-Orange juice (1 cup), 112 calories
-Apple juice (1 cup), 114 calories
-Black coffee (8 oz), 2 calories
-Latte (medium, 16 oz), 190 calories
-Green tea (8 oz), 2 calories
-Beer (regular, 12 oz), 153 calories
-Wine (red, 5 oz), 125 calories
-Protein shake (1 serving), 120 calories
-Energy drink (8 oz), 110 calories
-
+Apple, calories, 95
+Banana, calories, 105
+Orange, calories, 62
+Strawberry (1 cup), calories, 49
+Blueberries (1 cup), calories, 85
+Watermelon (1 cup), calories, 46
+Pineapple (1 cup), calories, 82
+Grapes (1 cup), calories, 104
+Avocado (whole), calories, 240
+Tomato (1 medium), calories, 22
+Cucumber (1 cup), calories, 16
+Carrot (1 medium), calories, 25
+Broccoli (1 cup), calories, 55
+Spinach (1 cup raw), calories, 7
+Kale (1 cup raw), calories, 33
+Sweet potato (1 medium), calories, 103
+Russet potato (1 medium), calories, 168
+Brown rice (1 cup cooked), calories, 216
+White rice (1 cup cooked), calories, 204
+Oatmeal (1 cup cooked), calories, 154
+Quinoa (1 cup cooked), calories, 222
+Whole wheat bread (1 slice), calories, 100
+White bread (1 slice), calories, 80
+Bagel (plain, 1 medium), calories, 245
+Pasta (1 cup cooked), calories, 200
+Egg (large), calories, 78
+Egg whites (3), calories, 51
+Chicken breast (100g), calories, 165
+Chicken thigh (100g), calories, 209
+Turkey breast (100g), calories, 135
+Ground beef (85% lean, 100g), calories, 250
+Steak (sirloin, 100g), calories, 242
+Pork chop (100g), calories, 231
+Salmon (100g), calories, 208
+Tuna (canned in water, 100g), calories, 132
+Shrimp (100g), calories, 99
+Tilapia (100g), calories, 129
+Almonds (28g), calories, 164
+Peanut butter (2 tbsp), calories, 190
+Cashews (28g), calories, 157
+Walnuts (28g), calories, 185
+Greek yogurt (plain, 1 cup), calories, 100
+Regular yogurt (plain, 1 cup), calories, 150
+Milk (whole, 1 cup), calories, 150
+Milk (skim, 1 cup), calories, 90
+Cheddar cheese (28g), calories, 113
+Mozzarella cheese (28g), calories, 85
+Butter (1 tbsp), calories, 102
+Olive oil (1 tbsp), calories, 119
+Coca-Cola (12 oz), calories, 140
+Pepsi (12 oz), calories, 150
+Orange juice (1 cup), calories, 112
+Apple juice (1 cup), calories, 114
+Black coffee (8 oz), calories, 2
+Latte (medium, 16 oz), calories, 190
+Green tea (8 oz), calories, 2
+Beer (regular, 12 oz), calories, 153
+Wine (red, 5 oz), calories, 125
+Protein shake (1 serving), calories, 120
+Energy drink (8 oz), calories, 110
+Granola bar (1 bar), calories, 130
+Popcorn (3 cups), calories, 90
+Potato chips (1 oz), calories, 152
+Pretzels (1 oz), calories, 108
+Chocolate bar (1 bar), calories, 210
+Ice cream (1 cup), calories, 273
+Cheeseburger, calories, 303
+French fries (medium), calories, 365
+Pizza slice (cheese), calories, 285
+Hot dog (with bun), calories, 290
+Taco (beef), calories, 170
+Burrito (chicken), calories, 290
+Pancakes (2 medium), calories, 175
+Waffles (2), calories, 218
+Syrup (2 tbsp), calories, 104
+Pine nuts (28g), calories, 191
+Chia seeds (28g), calories, 138
+Hummus (2 tbsp), calories, 70
+Bagel with cream cheese, calories, 300
+Chicken salad sandwich, calories, 430
+Ham sandwich, calories, 320
+Tuna salad sandwich, calories, 350
+Veggie wrap, calories, 290
+Sushi roll (6 pieces), calories, 200
+Tofu (1/2 cup), calories, 94
+Tempeh (1/2 cup), calories, 170
+Baked beans (1 cup), calories, 240
+Refried beans (1 cup), calories, 217
+Beef stew (1 cup), calories, 300
+Clam chowder (1 cup), calories, 250
+Chicken noodle soup (1 cup), calories, 150
+Tomato soup (1 cup), calories, 90
+Chili con carne (1 cup), calories, 287
+Macaroni and cheese (1 cup), calories, 310
+Lasagna (1 piece), calories, 336
+Spaghetti with meatballs (1 cup), calories, 300
+Chicken Alfredo (1 cup), calories, 410
+Buffalo wings (6 pieces), calories, 480
+Pita bread (1 piece), calories, 170
+Rice cake (1 cake), calories, 35
+Trail mix (1 oz), calories, 137
+Sunflower seeds (28g), calories, 164
+Cranberries (dried, 1/4 cup), calories, 123
+Raisins (1/4 cup), calories, 130
+Banana bread (1 slice), calories, 196
+Muffin (blueberry, medium), calories, 426
+Donut (glazed), calories, 240
+Croissant (butter, medium), calories, 231
+Bagel (everything, medium), calories, 290
+Beef jerky (1 oz), calories, 116
+Turkey jerky (1 oz), calories, 96
+Fruit smoothie (16 oz), calories, 230
+Veggie burger (1 patty), calories, 124
+Hash browns (1 serving), calories, 143
+Mashed potatoes (1 cup), calories, 237
+Coleslaw (1 cup), calories, 291
+Brussels sprouts (1 cup), calories, 38
+Zucchini (1 cup), calories, 19
+Peas (1 cup), calories, 117
+Corn (1 cup), calories, 132
+Cabbage (1 cup), calories, 22
+Mango (1 cup), calories, 99
+Papaya (1 cup), calories, 62
+Cantaloupe (1 cup), calories, 53
+Honeydew melon (1 cup), calories, 61
+Coconut water (1 cup), calories, 46
+Sweet tea (1 cup), calories, 90
+Sausage link (1), calories, 100
+Scrambled eggs (2), calories, 180
+Pork ribs (3 oz), calories, 300
+Fried chicken (1 piece), calories, 320
+Barbecue pork (3 oz), calories, 290
+Meatloaf (1 slice), calories, 290
+Enchilada (chicken), calories, 260
+Quesadilla (cheese), calories, 350
+Fish tacos (2 small), calories, 330
+Pasta primavera (1 cup), calories, 320
+Stir-fry beef (1 cup), calories, 350
+Ramen noodles (1 package), calories, 380
+Instant noodles (1 package), calories, 370
+Cereal (1 cup), calories, 110
+Granola (1/2 cup), calories, 200
+Apple pie (1 slice), calories, 300
+Chocolate chip cookie (1), calories, 78
+Brownie (1 piece), calories, 132
+Cupcake (1), calories, 210
+Pudding (1 cup), calories, 300
+Cheese pizza slice (large), calories, 320
+Meat pizza slice (large), calories, 370
+Tortilla chips (1 oz), calories, 140
+Guacamole (2 tbsp), calories, 50
+Salsa (2 tbsp), calories, 10
+Avocado toast (1 slice), calories, 250
+Pork sausage patty (1), calories, 200
+Veggie omelette (1), calories, 250
+Pork fried rice (1 cup), calories, 329
+Chicken fried rice (1 cup), calories, 334
+Shrimp fried rice (1 cup), calories, 329
+Veggie fried rice (1 cup), calories, 270
+Sweet and sour chicken (1 cup), calories, 350
+Sesame chicken (1 cup), calories, 430
+Beef and broccoli (1 cup), calories, 290
+Kung Pao chicken (1 cup), calories, 280
+Pad Thai (1 cup), calories, 400
+Chicken curry (1 cup), calories, 293
+Beef curry (1 cup), calories, 354
+Butter chicken (1 cup), calories, 438
+Naan bread (1 piece), calories, 262
+Rice pudding (1 cup), calories, 290
+Oat milk (1 cup), calories, 120
+Almond milk (1 cup), calories, 60
+Soy milk (1 cup), calories, 100
+Coconut milk (1 cup), calories, 445
+Feta cheese (28g), calories, 75
+Swiss cheese (28g), calories, 106
+Gouda cheese (28g), calories, 101
+Parmesan cheese (28g), calories, 110
+Hard boiled egg (1), calories, 78
+Bacon (2 slices), calories, 87
+Pork belly (3 oz), calories, 450
+Chow mein (1 cup), calories, 400
+Chicken Caesar salad (1 serving), calories, 400
+Garden salad (1 serving), calories, 150
+Pesto pasta (1 cup), calories, 380
+Teriyaki chicken (1 cup), calories, 321
+Fettuccine Alfredo (1 cup), calories, 415
+Beef burrito (1), calories, 450
+Chicken quesadilla (1), calories, 500
+Veggie pizza slice (large), calories, 280
+Buffalo chicken wrap (1), calories, 440
+Chicken parmesan (1 plate), calories, 530
+Mozzarella sticks (6 pieces), calories, 540
+Tater tots (10 pieces), calories, 160
+Onion rings (medium), calories, 410
+Chicken nuggets (6 pieces), calories, 270
+Sourdough bread (1 slice), calories, 120
+Multigrain bread (1 slice), calories, 110
+Wheat tortilla (1 medium), calories, 140
+Corn tortilla (1 medium), calories, 104
+Fruit cup (1 small), calories, 60
+Trail mix bar (1 bar), calories, 210
+Veggie chips (1 oz), calories, 130
+Frozen yogurt (1 cup), calories, 220
+Cheesecake (1 slice), calories, 350
+Cherry pie (1 slice), calories, 320
+Cinnamon roll (1), calories, 300
+Coconut milk latte (medium), calories, 150
+Matcha latte (medium), calories, 190
+Americano (8 oz), calories, 15
+Flat white (8 oz), calories, 120
+Espresso shot (1 oz), calories, 3
+Miso soup (1 cup), calories, 40
+Edamame (1 cup), calories, 190
+Stuffed peppers (1), calories, 350
+Eggplant parmesan (1 slice), calories, 460
+Vegetable soup (1 cup), calories, 90
+Lentil soup (1 cup), calories, 185
+Minestrone soup (1 cup), calories, 200
+Pho with beef (1 bowl), calories, 450
+Udon noodles (1 cup), calories, 210
+Spring rolls (2 pieces), calories, 140
+Vietnamese banh mi (1 sandwich), calories, 560
+Chicken pot pie (1), calories, 410
+Shepherd’s pie (1 slice), calories, 420
+Pulled pork sandwich (1), calories, 500
+Grilled cheese sandwich (1), calories, 400
+Falafel wrap (1), calories, 450
+Hawaiian pizza slice (large), calories, 310
+Buffalo chicken pizza slice (large), calories, 360
+Roast beef sandwich (1), calories, 430
+Veggie lasagna (1 slice), calories, 330
+Shrimp scampi (1 cup), calories, 410
+Crab cakes (2 small), calories, 310
+Lobster roll (1), calories, 450
+Chicken tikka masala (1 cup), calories, 430
+Paneer tikka masala (1 cup), calories, 470
+Vegetable biryani (1 cup), calories, 290
+Chicken biryani (1 cup), calories, 350
+Beef gyro (1), calories, 600
+Chicken shawarma wrap (1), calories, 450
+French toast (2 slices), calories, 350
+Breakfast burrito (1), calories, 500
+Eggs Benedict (1 serving), calories, 550
+Belgian waffle (1), calories, 410
+Bran muffin (1 medium), calories, 280
+Apple cinnamon oatmeal (1 cup), calories, 160
+Spinach salad (1 bowl), calories, 220
+Southwest salad (1 serving), calories, 430
+Chicken tenders (3 pieces), calories, 330
+Sloppy joe sandwich (1), calories, 470
+Cornbread (1 piece), calories, 200
+Grits (1 cup), calories, 150
+Pumpkin pie (1 slice), calories, 320
+Rice krispie treat (1), calories, 90
+Oreo cookies (3 cookies), calories, 160
+Peanut M&Ms (1 oz), calories, 140
+Twix bar (1 bar), calories, 250
+Snickers bar (1 bar), calories, 250
+Milky Way bar (1 bar), calories, 240
+Kit Kat bar (1 bar), calories, 220
+Reese’s peanut butter cups (2 cups), calories, 210
+York peppermint patty (1), calories, 140
+Peach (1 medium), calories, 59
+Plum (1 medium), calories, 30
+Pear (1 medium), calories, 101
+Nectarine (1 medium), calories, 62
+Apricot (1 medium), calories, 17
+Cherries (1 cup), calories, 87
+Blackberries (1 cup), calories, 62
+Raspberries (1 cup), calories, 64
+Lychee (1 cup), calories, 125
+Pomegranate (1 cup), calories, 144
+Coconut (1 cup shredded), calories, 283
+Macadamia nuts (28g), calories, 204
+Pistachios (28g), calories, 159
+Brazil nuts (28g), calories, 187
+Hazelnuts (28g), calories, 178
+Pumpkin seeds (28g), calories, 151
+Oats (dry, 1/2 cup), calories, 150
+Barley (cooked, 1 cup), calories, 193
+Farro (cooked, 1 cup), calories, 340
+Couscous (1 cup cooked), calories, 176
+Polenta (1 cup cooked), calories, 156
+Bulgur wheat (1 cup cooked), calories, 151
+Buckwheat (1 cup cooked), calories, 155
+Soba noodles (1 cup cooked), calories, 113
+Tomato basil soup (1 cup), calories, 74
+Broccoli cheddar soup (1 cup), calories, 310
+Zuppa Toscana (1 bowl), calories, 420
+Chicken tortilla soup (1 cup), calories, 190
+French onion soup (1 cup), calories, 280
+Stuffed mushrooms (5 pieces), calories, 140
+Artichoke dip (1/4 cup), calories, 160
+Spinach artichoke pizza slice (large), calories, 320
+Margarita pizza slice (large), calories, 250
+Vegan burger (1 patty), calories, 240
+Beyond burger (1 patty), calories, 270
+Impossible burger (1 patty), calories, 240
+Plant-based chicken nuggets (6 pieces), calories, 270
+Cauliflower wings (1 cup), calories, 210
+Zoodles (1 cup), calories, 30
+Acai bowl (1 small), calories, 210
+Smoothie bowl (1 medium), calories, 320
+Pumpkin spice latte (16 oz), calories, 380
+Chai latte (16 oz), calories, 240
+Iced coffee (medium), calories, 100
+Matcha green tea latte (medium), calories, 210
+Iced matcha latte (medium), calories, 190
+Cappuccino (8 oz), calories, 120
+Affogato (1 serving), calories, 240
+Root beer float (1 serving), calories, 275
+Milkshake (chocolate, 16 oz), calories, 530
+Vanilla milkshake (16 oz), calories, 500
+Strawberry milkshake (16 oz), calories, 520
+Orange creamsicle (1), calories, 100
+Fruit popsicle (1), calories, 50
+Soft serve ice cream (1 cone), calories, 200
+Frozen custard (1 cup), calories, 290
+Birthday cake (1 slice), calories, 350
+Chocolate cake (1 slice), calories, 370
+Lemon bar (1 piece), calories, 200
+Key lime pie (1 slice), calories, 300

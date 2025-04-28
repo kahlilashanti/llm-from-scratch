@@ -13,7 +13,7 @@ for (const id in rawEmbeddings) {
 }
 
 const vocabSize = Object.keys(tokenToId).length;
-const embedSize = 32;
+const embedSize = 64;
 const learningRate = 0.01;
 
 // --- Helper Functions ---
@@ -24,7 +24,6 @@ function randomMatrix(rows, cols) {
 function randomVector(size) {
     return Array.from({ length: size }, () => (Math.random() * 2 - 1) * 0.01);
 }
-
 
 function matmul(vec, matrix) {
     return matrix.map(row => dot(vec, row));
@@ -37,16 +36,12 @@ function dot(a, b) {
 function softmax(arr) {
     const max = Math.max(...arr);
     const exps = arr.map(x => Math.exp(x - max));
-    const sum = exps.reduce((a, b) => a + b);
+    const sum = exps.reduce((a, b) => a + b, 0);
     return exps.map(x => x / sum);
 }
 
 function crossEntropyLoss(probs, trueIdx) {
-    return -Math.log(probs[trueIdx] + 1e-9); // add epsilon to prevent log(0)
-}
-
-function subtractVectors(a, b, scale = 1) {
-    return a.map((val, idx) => val - scale * b[idx]);
+    return -Math.log(probs[trueIdx] + 1e-9);
 }
 
 // --- Initialize Weights ---
@@ -123,7 +118,7 @@ for (let epoch = 0; epoch < 200; epoch++) {
 
         const targetId = tokenToId[target];
         if (targetId === undefined) {
-            continue; // skip this bad sample
+            continue; // skip unknown token
         }
         const loss = crossEntropyLoss(probs, targetId);
         totalLoss += loss;
@@ -139,7 +134,15 @@ for (let epoch = 0; epoch < 200; epoch++) {
             }
         }
 
-        // Note: Not updating Wq, Wk, Wv, Wout yet for simplicity
+        // --- NEW: Update Wq, Wk, Wv, Wout slightly ---
+        for (let i = 0; i < embedSize; i++) {
+            for (let j = 0; j < embedSize; j++) {
+                Wq[i][j] -= learningRate * 0.01 * (Math.random() * 2 - 1);
+                Wk[i][j] -= learningRate * 0.01 * (Math.random() * 2 - 1);
+                Wv[i][j] -= learningRate * 0.01 * (Math.random() * 2 - 1);
+                Wout[i][j] -= learningRate * 0.01 * (Math.random() * 2 - 1);
+            }
+        }
     }
 
     if (epoch % 10 === 0) {
@@ -149,3 +152,5 @@ for (let epoch = 0; epoch < 200; epoch++) {
 
 console.log("Training complete!");
 
+// --- Save classifier weights (optional if needed later) ---
+fs.writeFileSync('classifierW.json', JSON.stringify(classifierW));

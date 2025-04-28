@@ -1,39 +1,38 @@
 // tokenizer.js
+
 const fs = require('fs');
 
-// 1. Load the text
+// --- Load text ---
 const rawText = fs.readFileSync('food-calories.txt', 'utf-8');
-console.log(`Loaded ${rawText.length} characters.`);
 
-// 2. Simple Tokenizer (split on whitespace and basic punctuation)
-function simpleTokenizer(text) {
-    const tokens = text.split(/([\s,.!?;:\n]+)/).filter(Boolean);
-    return tokens;
-}
+// --- Tokenize text ---
+let tokens = rawText
+    .split(/[\s,]+/)       // split on spaces and commas
+    .map(t => t.trim())
+    .filter(t => t.length > 0);
 
-const tokens = simpleTokenizer(rawText);
-console.log(`Tokenized into ${tokens.length} tokens.`);
+// --- Special handling: keep [END] token as-is ---
+tokens = tokens.map(t => {
+    if (t === '[END]') return t;
+    return t;
+});
 
-// 3. Build Vocabulary
-const vocabSet = new Set(tokens);
-const vocab = Array.from(vocabSet);
-
-console.log(`Vocabulary size: ${vocab.length}`);
-
-// 4. Build Token -> ID and ID -> Token maps
+// --- Build vocabulary ---
+const vocab = [...new Set(tokens)];
 const tokenToId = {};
 const idToToken = {};
+
 vocab.forEach((token, idx) => {
     tokenToId[token] = idx;
     idToToken[idx] = token;
 });
 
-// 5. Optional: Save vocab (JSON)
-fs.writeFileSync('token_to_id.json', JSON.stringify(tokenToId, null, 2));
-fs.writeFileSync('id_to_token.json', JSON.stringify(idToToken, null, 2));
+// --- Save mappings ---
+fs.writeFileSync('token_to_id.json', JSON.stringify(tokenToId));
+fs.writeFileSync('id_to_token.json', JSON.stringify(idToToken));
 
-// 6. Usage example:
-console.log(`Example token: '${tokens[0]}' --> ID: ${tokenToId[tokens[0]]}`);
+console.log(`Loaded ${rawText.length} characters.`);
+console.log(`Tokenized into ${tokens.length} tokens.`);
+console.log(`Vocabulary size: ${vocab.length}`);
+console.log(`Example token: '${vocab[0]}' --> ID: ${tokenToId[vocab[0]]}`);
 console.log(`Example ID: 0 --> Token: '${idToToken[0]}'`);
-
-// DONE.
